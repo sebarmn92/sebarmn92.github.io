@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebastian Roman - Full-Stack Developer & Embedded C engineer</title>
+     <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<body>
+    <div class="bg-animation"></div>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">SR</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Sebastian ROMAN</h1>
+            <p class="subtitle">Full-Stack Developer & Embedded C engineer</p>
+            <p class="description">
+                Crafting digital experiences with cutting-edge technology. 
+                Specialized in React, Express.js, jQuery, Embedded C.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        
+        <!-- Floating code snippets -->
+        <div class="floating-element">
+            <div class="code-snippet">
+                <div style="color: #ff6b6b;">const</div> 
+                <div style="color: #4ecdc4;">developer</div> 
+                <div style="color: #95e1d3;">= {</div>
+                <div>&nbsp;&nbsp;name: 'Seba',</div>
+                <div>&nbsp;&nbsp;skills: ['React', 'Express', 'jQuery' , 'Embedded C']</div>
+                <div style="color: #95e1d3;">}</div>
+            </div>
+        </div>
+        
+        <div class="floating-element">
+            <div class="code-snippet">
+                <div style="color: #ff6b6b;">function</div> 
+                <div style="color: #4ecdc4;">buildAmazingApps</div>
+                <div style="color: #95e1d3;">() {</div>
+                <div>&nbsp;&nbsp;return 'Magic ✨'</div>
+                <div style="color: #95e1d3;">}</div>
+            </div>
+        </div>
+        
+        <div class="floating-element">
+            <div class="code-snippet">
+                <div style="color: #ff6b6b;">import</div> 
+                <div style="color: #95e1d3;">{ Innovation }</div>
+                <div style="color: #ff6b6b;">from</div>
+                <div style="color: #4ecdc4;">'./creativity'</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills animate-on-scroll" id="skills">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">⚛️</div>
+                <h3>Frontend Development</h3>
+                <p>Building responsive, interactive user interfaces with React and modern CSS frameworks. Focus on performance and user experience.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🔧</div>
+                <h3>Backend Development</h3>
+                <p>Designing server architectures with Node.js, Express.js, C# .Net, and various databases.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">📟</div>
+                <h3>Embedded C</h3>
+                <p>Expertise on Embedded C with focus on AUTOSAR Architecture</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects animate-on-scroll" id="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image">😬</div>
+                <div class="project-content">
+                    <h3>Face Detection Web App using external face detection LLM API from Clarifai</h3>
+                    <p>An app that detects faces from a given image url. Ongoing work to add user authentification, user rating, performance optimization, migration to typescript, integrate test environment and other updates. <a href="https://github.com/sebarmn92/FaceDetection">Frontend repo</a> and  <a href="https://github.com/sebarmn92/FaceDetection-Backend-Express">Backend repo</a></p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Express.js</span>
+                        <span class="tech-tag">PostGreSQL</span>
+                        <span class="tech-tag">Restfull API</span>
+						<span class="tech-tag">Typescript</span>
+                    </div>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">🧨</div>
+                <div class="project-content">
+                    <h3>Web page loading with actual loading percentage.</h3>
+                    <p>Upcoming project. Goal is to display the actual progress of an backend task, in percentage, without having to make recursive backend calls to get the progress and have a more suitable solution than the clasic loaders, for the extensive requests.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Http protocol</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">📱</div>
+                <div class="project-content">
+                    <h3>WebXls</h3>
+                    <p>Prototype Excel like table library using js classes combined with jQuery with focus on easy integration with automatic data load, methods for custom design, cell editing, cells and rows selection with copy & paste and many more features to come. Fully encapsulated and can be used as multiple instances on same page. Work ongoing. Here's the <a href="https://github.com/sebarmn92/WebXls">repo</a></p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">Vanilla JS</span>
+                        <span class="tech-tag">jQuery</span>
+                        <span class="tech-tag">CSS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">🧐</div>
+                <div class="project-content">
+                    <h3>BlockChain-StaticAnalyzer</h3>
+                    <p>Performs basic audit on blockchain projects. Just provide the github repo and will parse the files for you. Rules are based on regex and not provided since they are private to myself. Here's the <a href="https://github.com/sebarmn92/BlockChain-StaticAnalyzer">repo</a></p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Solidity Blockchain audit</span>
+                        <span class="tech-tag">File parsing</span>
+                    </div>
+                </div>
+            </div>
+			<div class="project-card">
+                <div class="project-image">📝</div>
+                <div class="project-content">
+                    <h3>Food recipe website</h3>
+                    <p>Website that displays food recipes. Recipes are categorized, content is loaded dinamically based on db data, SEO meta tags automatic creation based on recipe db data, administration page for deleting or adding new recipes. Automatic sitemap update based on deleted or newly added recipes. Unfortunatelly project was abandoned a long time ago but will get back to it. Here's the <a href="https://github.com/sebarmn92/e-retete">repo</a></p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">jQuery</span>
+                        <span class="tech-tag">Php</span>
+						<span class="tech-tag">MySql</span>
+						<span class="tech-tag">Sitemap</span>
+						<span class="tech-tag">SEO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact animate-on-scroll" id="contact">
+        <h2>Let's Build Something Amazing</h2>
+        <p>Ready to bring your ideas to life? I'm always excited to work on innovative projects and collaborate with forward-thinking teams.</p>
+		<p>Contact me on linkedin.</p>
+        
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sebastian-roman-805641124" class="social-link"><div></div></a>
+
+        </div>
+        
+    </section>
+	<script src="./main.js" defer></script>
+</body>
+</html>
